@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(#a18cd1 0%, #fbc2eb 100%);
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align:center;
+}
+
+.card-item img {
+  width: 100%;
+  text-align: center;
+
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.home {
+  outline: 2px dotted #D8BFD8;
+  width: 100px;
+  height: 50px;
+}
+.search {
+  outline: 2px dotted #D8BFD8;
+}
+.logout {
+  outline: 2px dotted #D8BFD8;
+}
+
+.bag {
+  outline: 2px dotted #D8BFD8;
+  background-color: rgba(219, 219, 219, .5);
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.central {
+  display: flex;
+  flex-flow: row wrap;
+}
+.central .photos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+.central .photos .card-item {
+  flex-grow: 1;
+  flex-basis: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
